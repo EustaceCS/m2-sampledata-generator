@@ -25,3 +25,5 @@ To remove the generated entities use the same command with `--removeall 1` param
 ```
 ./bin/magento samplegen:generate:products --removeall 1
 ```
+
+Note from Eustace: this repository has been created with the sole purpose in mind: experiments. May contain unfinished or otherwise unstable code.
