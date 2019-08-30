@@ -92,7 +92,7 @@ class GenerateCustomersCommand extends Command
         $params[self::INPUT_KEY_REMOVE] = $removeGeneratedCustomers;
 
         $adminAppState = $objectManager->get('Magento\Framework\App\State');
-        $adminAppState->setAreaCode(\Magento\Framework\App\Area::AREA_ADMIN);
+        $adminAppState->setAreaCode(\Magento\Framework\App\Area::AREA_ADMINHTML);
 
         $this->context->setParameters($params);
         $this->context->setObjectManager($objectManager);
